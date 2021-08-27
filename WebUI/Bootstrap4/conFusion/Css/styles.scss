@@ -77,3 +77,21 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+$palecolour: rgb(175, 238, 238);
+//modal scss
+.modal{
+    .modal-header{
+        background: $background-dark;
+        .modal-title{
+            color: floralwhite;
+        }
+        .close{
+            color: floralwhite;
+        }
+    }
+    .modal-body{
+        background-color: $palecolour;
+    }
+    
+}
